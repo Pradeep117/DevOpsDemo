@@ -3,6 +3,7 @@ public with sharing class carSearchController {
     public static List<Car__c> getCars(String carTypeId){
         //If all type selected in UI
         // Added comment
+
         
         if(carTypeId == null && carTypeId.equalsIgnoreCase('')){
            /* return [SELECT id, Name, Picture__c, Contact__r.Name, Geolocation_latitude__s, Geolocation_longitude__s
