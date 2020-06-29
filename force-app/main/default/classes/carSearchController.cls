@@ -2,7 +2,7 @@ public with sharing class carSearchController {
     @AuraEnabled
     public static List<Car__c> getCars(String carTypeId){
         //If all type selected in UI
-        // Comment added 3
+        
         if(carTypeId == null && carTypeId.equalsIgnoreCase('')){
            /* return [SELECT id, Name, Picture__c, Contact__r.Name, Geolocation_latitude__s, Geolocation_longitude__s
                    FROM Car__c
