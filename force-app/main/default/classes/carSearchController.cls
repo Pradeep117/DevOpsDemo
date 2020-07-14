@@ -5,7 +5,7 @@ public with sharing class carSearchController {
         // Added comment
 
         
-        if(carTypeId == null && carTypeId.equalsIgnoreCase('')){
+        if(carTypeId != null && carTypeId.equalsIgnoreCase('')){
            /* return [SELECT id, Name, Picture__c, Contact__r.Name, Geolocation_latitude__s, Geolocation_longitude__s
                    FROM Car__c
                    WHERE Available_For_Rent__C = true]; */
