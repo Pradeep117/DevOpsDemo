@@ -2,6 +2,7 @@
 public class carSearchController_Test {
 	static testMethod void insertCar()
     {
+        //comment added
         Contact objContact = new Contact();
         objContact.LastName = 'Popular';
         insert objContact;
